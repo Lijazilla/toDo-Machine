@@ -1,6 +1,9 @@
 {
   "name": "platzi-intro-react-base",
   "version": "0.1.0",
+  "homepage": "https://lijazilla.github.io/toDo-Machine/build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -b main -d builds",
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
